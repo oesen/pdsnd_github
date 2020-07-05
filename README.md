@@ -2,14 +2,16 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Udacity Nanodegree Project-Github
 
 ### Description
-Describe what your project is about and what it does
+An R project examining bikeshare data
 
 ### Files used
-Include the files used
+R Project_Bikeshare_Data_Q1
+R Project_Bikeshare_Data_Q2
+R Project_Bikeshare_Data_Q3
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://ggplot2.tidyverse.org/
+https://guides.github.com/introduction/git-handbook/
