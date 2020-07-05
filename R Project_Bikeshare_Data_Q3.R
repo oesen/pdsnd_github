@@ -6,9 +6,9 @@
 #Creating 'Day' column again
 ny$Day <- weekdays(as.Date(ny$Start.Time))
 #Excluding NA and the values elder than 1960 from the sample, since people who were born earlier than 1960s are not considered within the scope of this question.
-ny.filtered= subset(ny, ny$Birth.Year>=1960)       
+ny.filtered = subset(ny, ny$Birth.Year>=1960)       
 # Determining the generation based on the birth year
-ny.filtered$Generation<- ifelse(ny.filtered$Birth.Year < 1981, "X",
+ny.filtered$Generation <- ifelse(ny.filtered$Birth.Year < 1981, "X",
                                 ifelse(ny.filtered$Birth.Year %in% 1981:1996, "Y", "Z"))
 # Quick Check if the sample still covers the undesired observations
 # head(ny.filtered,100)

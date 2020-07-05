@@ -21,10 +21,10 @@ chi_sum
 library(tidyverse)
 wash.new <- drop_na(wash,8)
 #The same procedure for "Chi"
-chi.new<- chi[-8630,-9]
+chi.new <- chi[-8630,-9]
 chi.new2 <- drop_na(chi.new,6)
-chi.new3<-drop_na(chi.new2,9)
-chi.final<-drop_na(chi.new3,3)
+chi.new3 <- drop_na(chi.new2,9)
+chi.final <- drop_na(chi.new3,3)
 
 #Visualization Step
 ## Providing violin graphs in order to illustrate how "time duration" data is distributed across the three cities.
